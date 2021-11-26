@@ -1,0 +1,15 @@
+gcc juego.c utiles.o defendiendo.c defendiendo_torres.c animos.c -o defendiendo -std=c99 -Wall -Werror -Wconversion
+
+
+
+gcc *.c utiles.o -o defendiendo -std=c99 -Wall -Werror -Wconversion
+
+./defendiendo ranking listar=25 config=mi_config.txt
+
+./defendiendo crear_camino mi_caminos.txt
+
+./defendiendo crear_configuracion mi_config.txt
+
+./defendiendo jugar config=mi_config.txt grabacion=mi_grabacion.dat
+
+./defendiendo poneme_la_repe grabacion=mi_grabacion.dat velocidad=0.2
