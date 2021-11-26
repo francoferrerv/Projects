@@ -1,0 +1,10 @@
+E;Ash
+P;Pikachu;40;20;30
+P;Vaporeon;40;50;70
+P;Porygon;30;40;50
+P;Kabutops;40;70;60
+P;Charizard;60;75;40
+P;Machamp;30;80;60
+P;Golem;20;70;90
+P;Gyarados;40;70;60
+
